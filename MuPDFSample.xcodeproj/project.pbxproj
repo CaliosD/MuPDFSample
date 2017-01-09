@@ -54,6 +54,7 @@
 		EE02F9101E23664800CC9E5A /* ic_trash.png in Resources */ = {isa = PBXBuildFile; fileRef = EE02F8FF1E23664800CC9E5A /* ic_trash.png */; };
 		EE02F9111E23664800CC9E5A /* ic_underline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE02F9001E23664800CC9E5A /* ic_underline.png */; };
 		EE02F9131E23823900CC9E5A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE02F9121E23823900CC9E5A /* README.md */; };
+		EE02F9151E23912400CC9E5A /* mupdf_sample_project_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = EE02F9141E23912400CC9E5A /* mupdf_sample_project_tree.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,8 +107,8 @@
 		EE02F87C1E23342500CC9E5A /* MuUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuUpdater.h; sourceTree = "<group>"; };
 		EE02F87D1E23342500CC9E5A /* MuWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuWord.h; sourceTree = "<group>"; };
 		EE02F87E1E23342500CC9E5A /* MuWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuWord.m; sourceTree = "<group>"; };
-		EE02F8921E23343400CC9E5A /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		EE02F8931E23343400CC9E5A /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
+		EE02F8921E23343400CC9E5A /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = ../common.h; sourceTree = "<group>"; };
+		EE02F8931E23343400CC9E5A /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = common.m; path = ../common.m; sourceTree = "<group>"; };
 		EE02F8961E23349000CC9E5A /* libmupdf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmupdf.a; sourceTree = "<group>"; };
 		EE02F8971E23349000CC9E5A /* libmupdfthird.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmupdfthird.a; sourceTree = "<group>"; };
 		EE02F89A1E23356100CC9E5A /* elementary-algorithms-zh-cn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "elementary-algorithms-zh-cn.pdf"; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 		EE02F8FF1E23664800CC9E5A /* ic_trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trash.png; sourceTree = "<group>"; };
 		EE02F9001E23664800CC9E5A /* ic_underline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_underline.png; sourceTree = "<group>"; };
 		EE02F9121E23823900CC9E5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE02F9141E23912400CC9E5A /* mupdf_sample_project_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mupdf_sample_project_tree.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				EE02F9121E23823900CC9E5A /* README.md */,
+				EE02F9141E23912400CC9E5A /* mupdf_sample_project_tree.png */,
 				EE02F7EB1E23334C00CC9E5A /* MuPDFSample */,
 				EE02F7EA1E23334C00CC9E5A /* Products */,
 			);
@@ -280,8 +283,6 @@
 				EE02F89C1E23398000CC9E5A /* include */,
 				EE02F8951E23349000CC9E5A /* lib */,
 				EE02F8571E23342500CC9E5A /* muHelper */,
-				EE02F8921E23343400CC9E5A /* common.h */,
-				EE02F8931E23343400CC9E5A /* common.m */,
 			);
 			path = mupdf;
 			sourceTree = "<group>";
@@ -344,6 +345,8 @@
 		EE02F89C1E23398000CC9E5A /* include */ = {
 			isa = PBXGroup;
 			children = (
+				EE02F8921E23343400CC9E5A /* common.h */,
+				EE02F8931E23343400CC9E5A /* common.m */,
 				EE02F8EE1E233B5500CC9E5A /* mupdf */,
 			);
 			path = include;
@@ -551,6 +554,7 @@
 				EE02F9091E23664800CC9E5A /* ic_magnifying_glass.png in Resources */,
 				EE02F8831E23342500CC9E5A /* MuChoiceFieldController.xib in Resources */,
 				EE02F90C1E23664800CC9E5A /* ic_print.png in Resources */,
+				EE02F9151E23912400CC9E5A /* mupdf_sample_project_tree.png in Resources */,
 				EE02F9071E23664800CC9E5A /* ic_link.png in Resources */,
 				EE02F7F91E23334C00CC9E5A /* Assets.xcassets in Resources */,
 				EE02F9021E23664800CC9E5A /* ic_arrow_left.png in Resources */,
