@@ -66,6 +66,7 @@ Here's folder structure for this sample.
 
 **Attention:** Since the `.a` files are too large to upload, you'll have to add it by yourself.
 
+
 ### Some other things to mention
 
 1. It seems that some configurations are all set when application just finishes launching. So remember to `#include "common.h"` add these lines in your `-application:didFinishLaunchingWithOptions:` of `AppDelegate.m`.
