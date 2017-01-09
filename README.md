@@ -69,7 +69,7 @@ Here's folder structure for this sample.
 
 ### Some other things to mention
 
-1. It seems that some configurations are all set when application just finishes launching. So remember to `#include "common.h"` add these lines in your `-application:didFinishLaunchingWithOptions:` of `AppDelegate.m`.
+1.It seems that some configurations are all set when application just finishes launching. So remember to `#include "common.h"` add these lines in your `-application:didFinishLaunchingWithOptions:` of `AppDelegate.m`.
 
 ```
 		queue = dispatch_queue_create("com.calios.mupdfsample.queue", NULL);
@@ -78,7 +78,7 @@ Here's folder structure for this sample.
 	    fz_register_document_handlers(ctx);
 ```
 
-2. Background & foreground & memory warning handlers
+2.Background & foreground & memory warning handlers
 
 ```
 	@implementation AppDelegate
